@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/components/**/*.ts"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Lato"],
+        serif: ["Roboto Slab"],
+      },
+    },
   },
   plugins: [],
 };
