@@ -1,14 +1,19 @@
 import React from "react";
+import { SVG, SVGKey } from "../../../assets/icons";
 import { Container } from "./style";
 
 export type IconProps = {
-  icon: string;
+  icon: SVGKey;
   size?: "s" | "m" | "l" | "xl";
 };
 
 export const Icon: React.FC<IconProps> = (props) => {
   const size = props.size || "s";
-  const icon = props.icon || "";
+  const IC = SVG[props.icon || SVGKey.Flag]();
 
-  return <Container src={icon} {...{ size }} />;
+  return (
+    <Container size={size}>
+      <IC />
+    </Container>
+  );
 };

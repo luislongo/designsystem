@@ -1,5 +1,13 @@
+import { Divider, DividerProps } from "./atoms/divider";
 import { Icon, IconProps } from "./atoms/icon";
-import { MenuItem, MenuItemProps } from "./molecules/menuitem";
-
-export { Icon, MenuItem };
-export type { IconProps, MenuItemProps };
+import { MenuItem, MenuItemProps } from "./atoms/menuitem";
+import { MenuSection, MenuSectionProps } from "./molecules/menuSection";
+import { Menu, MenuProps } from "./molecules/menu";
+export { Icon, MenuItem, Divider, MenuSection, Menu };
+export type {
+  IconProps,
+  MenuItemProps,
+  DividerProps,
+  MenuSectionProps,
+  MenuProps,
+};

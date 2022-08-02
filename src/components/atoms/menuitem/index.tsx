@@ -1,16 +1,19 @@
 import React from "react";
-import { Icon } from "../../atoms/icon";
+import { SVGKey } from "../../../assets/icons";
+import { Divider, Orientation } from "../divider";
+import { Icon } from "../icon";
 import { Container } from "./style";
 
 export type MenuItemProps = {
-  icon?: string;
+  icon?: SVGKey;
   label: string;
 };
 
 export const MenuItem: React.FC<MenuItemProps> = ({ icon, label }) => {
   return (
     <Container>
-      {icon && <Icon icon={icon} size="m" />}
+      {icon !== undefined && <Icon icon={icon} size="m" />}
+      <Divider orientation={Orientation.Vertical} />
       <label>{label}</label>
     </Container>
   );
