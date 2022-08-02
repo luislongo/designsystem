@@ -2,6 +2,7 @@
   "name": "designsystem",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://luislongo.github.io/designsystem",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -25,7 +26,9 @@
     "build:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css",
     "watch:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css -w",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "eslintConfig": {
     "extends": [
@@ -74,6 +77,7 @@
     "babel-loader": "^8.2.5",
     "babel-plugin-named-exports-order": "^0.0.2",
     "babel-preset-react-app": "^10.0.1",
+    "gh-pages": "^4.0.0",
     "postcss-cli": "^10.0.0",
     "postcss-import": "^14.1.0",
     "prop-types": "^15.8.1",
