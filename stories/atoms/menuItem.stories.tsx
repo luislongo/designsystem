@@ -1,7 +1,7 @@
 import React from "react";
 import { ComponentMeta, Story } from "@storybook/react";
 import { MenuItem, MenuItemProps } from "../../src/components";
-import { SVGKey } from "../../src/assets/icons";
+import { SVGKey } from "../../public/assets/icons";
 
 export default {
   title: "MenuItem",

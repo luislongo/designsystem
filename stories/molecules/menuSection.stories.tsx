@@ -1,6 +1,6 @@
 import React from "react";
 import { ComponentMeta, Story } from "@storybook/react";
-import { SVGKey } from "../../src/assets/icons";
+import { SVGKey } from "../../public/assets/icons";
 import { MenuSection, MenuSectionProps } from "../../src/components";
 
 export default {

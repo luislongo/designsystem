@@ -1,5 +1,5 @@
 import React from "react";
-import { SVG, SVGKey } from "../../../assets/icons";
+import { SVG, SVGKey } from "../../../../public/assets/icons";
 import { Container } from "./style";
 
 export type IconProps = {

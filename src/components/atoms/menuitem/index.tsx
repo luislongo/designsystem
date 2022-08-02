@@ -1,5 +1,5 @@
 import React from "react";
-import { SVGKey } from "../../../assets/icons";
+import { SVGKey } from "../../../../public/assets/icons";
 import { Divider, Orientation } from "../divider";
 import { Icon } from "../icon";
 import { Container } from "./style";

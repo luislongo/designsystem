@@ -409,7 +409,8 @@ video {
 }
 
 ul {
-  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 *, ::before, ::after {
@@ -653,10 +654,6 @@ ul {
 .bg-neutral-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(238 238 238 / var(--tw-bg-opacity));
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .p-1 {
