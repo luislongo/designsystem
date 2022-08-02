@@ -12,8 +12,9 @@ export const Menu: React.FC<MenuProps> = ({ sections }) => {
     <Container>
       {sections.map((section) => (
         <>
-          <MenuSection {...section} />
           <Divider orientation={Orientation.Horizontal} />
+
+          <MenuSection {...section} />
         </>
       ))}
     </Container>
