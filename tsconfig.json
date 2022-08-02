@@ -18,7 +18,13 @@
     "declaration": true,
     "declarationMap": true,
     "outDir": "./dist",
-    "rootDirs": ["./src", "./stories"]
+    "rootDirs": ["./src", "./stories"],
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@icons": ["./public/assets/icons"],
+      "@icons/*": ["./public/assets/icons/*"]
+    }
   },
   "include": ["src", "tailwind.macro", "stories", "public/assets"]
 }

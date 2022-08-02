@@ -1,7 +1,7 @@
 import React from "react";
-import { SVGKey } from "../../../../public/assets/icons";
-import { Divider, Orientation } from "../divider";
-import { Icon } from "../icon";
+import { SVGKey } from "@icons";
+import { Divider, Orientation } from "@components/atoms/divider";
+import { Icon } from "@components/atoms/icon";
 import { Container } from "./style";
 
 export type MenuItemProps = {
