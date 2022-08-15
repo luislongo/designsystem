@@ -1,7 +1,7 @@
 import React from "react";
-import { SVGIconProps } from ".";
+import { IconProps } from ".";
 
-export const Flag: React.FC<SVGIconProps> = ({ className, style }) => {
+export const Flag: React.FC<IconProps> = ({ className, style }) => {
   return (
     <svg x="0px" y="0px" viewBox="0 0 48 48" className={className}>
       <path

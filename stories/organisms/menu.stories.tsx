@@ -1,10 +1,10 @@
 import React from "react";
 import { ComponentMeta, Story } from "@storybook/react";
-import { SVGKey } from "../../public/assets/icons";
+import { IconKey } from "../../public/assets/icons";
 import { Menu, MenuProps } from "../../src/components";
 
 export default {
-  title: "Menu",
+  title: "Design System/Organisms/Menu",
   component: Menu,
 } as ComponentMeta<typeof Menu>;
 
@@ -15,26 +15,26 @@ Primary.args = {
   sections: [
     {
       items: [
-        { icon: SVGKey.Flag, label: "Sinalizar" },
-        { icon: SVGKey.Flag, label: "Sinalizar" },
-        { icon: SVGKey.Flag, label: "Sinalizar" },
-        { icon: SVGKey.Flag, label: "Sinalizar" },
+        { icon: IconKey.Flag, label: "Sinalizar" },
+        { icon: IconKey.Flag, label: "Sinalizar" },
+        { icon: IconKey.Flag, label: "Sinalizar" },
+        { icon: IconKey.Flag, label: "Sinalizar" },
       ],
     },
     {
       items: [
-        { icon: SVGKey.Flag, label: "Sinalizar" },
-        { icon: SVGKey.Flag, label: "Sinalizar" },
-        { icon: SVGKey.Flag, label: "Sinalizar" },
-        { icon: SVGKey.Flag, label: "Sinalizar" },
+        { icon: IconKey.Flag, label: "Sinalizar" },
+        { icon: IconKey.Flag, label: "Sinalizar" },
+        { icon: IconKey.Flag, label: "Sinalizar" },
+        { icon: IconKey.Flag, label: "Sinalizar" },
       ],
     },
     {
       items: [
-        { icon: SVGKey.Flag, label: "Sinalizar" },
-        { icon: SVGKey.Flag, label: "Sinalizar" },
-        { icon: SVGKey.Flag, label: "Sinalizar" },
-        { icon: SVGKey.Flag, label: "Sinalizar" },
+        { icon: IconKey.Flag, label: "Sinalizar" },
+        { icon: IconKey.Flag, label: "Sinalizar" },
+        { icon: IconKey.Flag, label: "Sinalizar" },
+        { icon: IconKey.Flag, label: "Sinalizar" },
       ],
     },
   ],

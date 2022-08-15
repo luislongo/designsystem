@@ -1,9 +1,9 @@
 import { ComponentMeta, Story } from "@storybook/react";
-import { SVGKey } from "../../public/assets/icons";
+import { IconKey } from "../../public/assets/icons";
 import { Icon, IconProps } from "../../src/components";
 import React from "react";
 export default {
-  title: "Icon",
+  title: "Design System/Atoms/Icon",
   component: Icon,
 } as ComponentMeta<typeof Icon>;
 
@@ -12,7 +12,7 @@ const Template: Story<IconProps> = ({ icon, size }) => (
 );
 
 export const Flag = Template.bind({});
-Flag.args = { icon: SVGKey.Flag, size: "m" };
+Flag.args = { icon: IconKey.Flag, size: "m" };
 
 export const Settings = Template.bind({});
-Settings.args = { icon: SVGKey.Settings, size: "m" };
+Settings.args = { icon: IconKey.Settings, size: "m" };

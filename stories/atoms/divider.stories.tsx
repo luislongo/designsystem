@@ -1,8 +1,9 @@
 import { ComponentMeta, Story } from "@storybook/react";
 import { Divider, DividerProps } from "../../src/components";
 import React from "react";
+import { Orientation } from "../../src/components/atoms/divider";
 export default {
-  title: "Divider",
+  title: "Design System/Atoms/Divider",
   component: Divider,
   decorators: [
     (Story) => <div style={{ width: 300, height: 300 }}>{<Story />}</div>,
@@ -14,7 +15,7 @@ const Template: Story<DividerProps> = ({ orientation }) => (
 );
 
 export const Horizontal = Template.bind({});
-Horizontal.args = { orientation: "horizontal" };
+Horizontal.args = { orientation: Orientation.Horizontal };
 
 export const Vertical = Template.bind({});
-Vertical.args = { orientation: "vertical" };
+Vertical.args = { orientation: Orientation.Vertical };

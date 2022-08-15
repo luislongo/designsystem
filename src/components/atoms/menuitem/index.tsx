@@ -1,11 +1,11 @@
 import React from "react";
-import { SVGKey } from "../../../../public/assets/icons";
+import { IconKey } from "../../../../public/assets/icons";
 import { Divider, Orientation } from "../divider";
 import { Icon } from "../icon";
 import { Container } from "./style";
 
 export type MenuItemProps = {
-  icon?: SVGKey;
+  icon?: IconKey;
   label: string;
 };
 

@@ -1,14 +1,14 @@
 import React from "react";
 import { ComponentMeta, Story } from "@storybook/react";
 import { MenuItem, MenuItemProps } from "../../src/components";
-import { SVGKey } from "../../public/assets/icons";
+import { IconKey } from "../../public/assets/icons";
 
 export default {
-  title: "MenuItem",
+  title: "Design System/Atoms/MenuItem",
   component: MenuItem,
 } as ComponentMeta<typeof MenuItem>;
 
 const Template: Story<MenuItemProps> = (props) => <MenuItem {...props} />;
 
 export const Primary = Template.bind({});
-Primary.args = { icon: SVGKey.Flag, label: "Sinalizar" };
+Primary.args = { icon: IconKey.Flag, label: "Sinalizar" };

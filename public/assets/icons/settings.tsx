@@ -1,7 +1,7 @@
 import React from "react";
-import { SVGIconProps } from ".";
+import { IconProps } from ".";
 
-export const Settings: React.FC<SVGIconProps> = ({ className, style }) => {
+export const Settings: React.FC<IconProps> = ({ className, style }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
