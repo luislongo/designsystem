@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Container } from "./style";
 
-export interface PlayerIconProps {
+export interface WavePlayerIconProps {
   isPlaying: boolean;
 }
 
-export const PlayerIcon: React.FC<PlayerIconProps> = (props) => {
+export const WavePlayerIcon: React.FC<WavePlayerIconProps> = (props) => {
   const [phase, setPhase] = useState(0);
   const [amplitude, setAmplitude] = useState(15);
 
@@ -29,9 +29,9 @@ export const PlayerIcon: React.FC<PlayerIconProps> = (props) => {
   const makeLine = (index: number) => {
     return (
       <line
-        stroke-width="4"
-        stroke-linecap="round"
-        stroke-miterlimit="10"
+        strokeWidth="4"
+        strokeLinecap="round"
+        strokeMiterlimit="10"
         x1={8 + 8 * index}
         y1={center(index) + halfWidth(index)}
         x2={8 + 8 * index}

@@ -554,10 +554,6 @@ ul {
   --tw-backdrop-sepia:  ;
 }
 
-.visible {
-  visibility: visible;
-}
-
 .absolute {
   position: absolute;
 }
@@ -574,24 +570,8 @@ ul {
   left: 0px;
 }
 
-.col-start-1 {
-  grid-column-start: 1;
-}
-
-.col-start-2 {
-  grid-column-start: 2;
-}
-
 .mr-3 {
   margin-right: 0.75rem;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.inline {
-  display: inline;
 }
 
 .flex {
@@ -600,10 +580,6 @@ ul {
 
 .grid {
   display: grid;
-}
-
-.hidden {
-  display: none;
 }
 
 .h-0 {
@@ -628,12 +604,6 @@ ul {
 
 .h-8 {
   height: 2rem;
-}
-
-.h-fit {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
 }
 
 .w-full {
@@ -664,16 +634,6 @@ ul {
   width: 24rem;
 }
 
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-fit {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 .list-none {
   list-style-type: none;
 }
@@ -696,10 +656,6 @@ ul {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .border {
@@ -728,12 +684,24 @@ ul {
   background-color: rgb(238 238 238 / var(--tw-bg-opacity));
 }
 
+.fill-transparent {
+  fill: transparent;
+}
+
+.fill-current {
+  fill: currentColor;
+}
+
+.fill-neutral-100 {
+  fill: #fafafa;
+}
+
 .stroke-current {
   stroke: currentColor;
 }
 
-.stroke-2 {
-  stroke-width: 2;
+.stroke-1 {
+  stroke-width: 1;
 }
 
 .p-1 {
@@ -754,34 +722,12 @@ ul {
   line-height: 1.25rem;
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
 .opacity-100 {
   opacity: 1;
 }
 
-.transition {
-  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, -webkit-text-decoration-color, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.duration-200 {
-  transition-duration: 200ms;
-}
-
-.duration-700 {
-  transition-duration: 700ms;
+.opacity-0 {
+  opacity: 0;
 }
 
 .duration-500 {
