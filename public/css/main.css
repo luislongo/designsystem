@@ -684,20 +684,24 @@ ul {
   background-color: rgb(238 238 238 / var(--tw-bg-opacity));
 }
 
-.fill-transparent {
-  fill: transparent;
-}
-
 .fill-current {
   fill: currentColor;
 }
 
-.fill-neutral-100 {
-  fill: #fafafa;
-}
-
 .stroke-current {
   stroke: currentColor;
+}
+
+.stroke-slate-50 {
+  stroke: #f8fafc;
+}
+
+.stroke-white {
+  stroke: #fff;
+}
+
+.stroke-2 {
+  stroke-width: 2;
 }
 
 .stroke-1 {

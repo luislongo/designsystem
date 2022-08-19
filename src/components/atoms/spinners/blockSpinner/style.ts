@@ -133,7 +133,9 @@ export const Container = styled.svg<StyleProps>`
   ${tw`relative w-full h-full`}
 
   & > * {
-    ${tw`stroke-1 fill-current stroke-current absolute`}
+    stroke-width: 2;
+    stroke: white;
+    ${tw` fill-current  absolute`};
   }
 
   ${firstChildAnimation}
