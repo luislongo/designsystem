@@ -32,4 +32,7 @@ module.exports = {
       config.resolve.extensions.push(".ts", ".tsx");
     return config;
   },
+  babel: {
+    plugins: [["babel-plugin-jsx-auto-test-id", { attributeName: "data-qa" }]],
+  },
 };

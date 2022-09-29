@@ -1,6 +1,5 @@
 import React from "react";
 import { ComponentMeta, Story } from "@storybook/react";
-import { IconKey } from "../../public/assets/icons";
 import {
   RadioGroup,
   RadioGroupProps,
