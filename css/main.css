@@ -409,7 +409,8 @@ video {
 }
 
 ul {
-  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 *, ::before, ::after {
@@ -553,12 +554,50 @@ ul {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mr-3 {
   margin-right: 0.75rem;
 }
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .h-0 {
@@ -583,6 +622,10 @@ ul {
 
 .h-8 {
   height: 2rem;
+}
+
+.h-2 {
+  height: 0.5rem;
 }
 
 .w-full {
@@ -617,6 +660,10 @@ ul {
   list-style-type: none;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -627,6 +674,10 @@ ul {
 
 .items-stretch {
   align-items: stretch;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .border {
@@ -647,16 +698,30 @@ ul {
 
 .border-neutral-600 {
   --tw-border-opacity: 1;
-  border-color: rgb(158 158 158 / var(--tw-border-opacity));
+  border-color: rgb(40 40 40 / var(--tw-border-opacity));
 }
 
 .bg-neutral-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(238 238 238 / var(--tw-bg-opacity));
+  background-color: rgb(212 212 212 / var(--tw-bg-opacity));
 }
 
-.p-2 {
-  padding: 0.5rem;
+.bg-green-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 185 111 / var(--tw-bg-opacity));
+}
+
+.bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 82 49 / var(--tw-bg-opacity));
+}
+
+.fill-current {
+  fill: currentColor;
+}
+
+.stroke-current {
+  stroke: currentColor;
 }
 
 .p-1 {
@@ -677,6 +742,30 @@ ul {
   line-height: 1.25rem;
 }
 
+.opacity-100 {
+  opacity: 1;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 @font-face {
   font-family: "Lato";
 
@@ -687,4 +776,9 @@ ul {
   font-family: "Roboto Slab";
 
   src: url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+}
+
+.hover\:bg-green-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 124 74 / var(--tw-bg-opacity));
 }
